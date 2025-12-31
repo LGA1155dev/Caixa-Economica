@@ -11,7 +11,6 @@
 
  body{
     background-image: url(imagens/mulher.png);
-    background-attachment: fixed;
     background-position: center center;
     background-size: cover;
     background-color: lightgray;
@@ -34,7 +33,6 @@
 
  .logo{
     border-radius: 20px;
-    /* background-color: #5c95ca; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,20 +44,6 @@
     cursor: pointer;
     width: 250px;
  }
-
- /* .texto{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 100%;
- } */
-
- /* .texto p{ 
-    color: rgb(45, 65, 109);
-    font-size: 1.3em;
-    font-weight: bold;
- } */
 
  .email{
     padding: 50px;
@@ -112,7 +96,6 @@
     border-radius: 10px;
     text-align: center;
     padding: 20px;
-    /* background-color: #5c95ca; */
     width: 400px;
     color: #395875;
     background-color: white;
