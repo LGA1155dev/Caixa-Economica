@@ -20,7 +20,7 @@
             <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="current-password" required min="8" max="20">
         </div>
         <div class="botao">
-            <a href="error.html" onclick="logar()">Logar-se</a>
+            <a id="botao" href="error.html" onclick="logar()">Logar-se</a>
         </div>
         <div class="cadastro">
             <p>Ainda não se cadastrou? <strong><a href="cadastro.html">cadastre-se já aqui!</a></strong></p>
@@ -29,7 +29,10 @@
 
     <script>
         function logar(){
-            
+            var botao = document.getElementById('a#botao')
+
+            botao.style.background = '#5e8cb4'
+            botao.style.color = 'white'
         }
     </script>
 </body>

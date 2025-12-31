@@ -11,6 +11,7 @@
 
  body{
     background-image: url(imagens/mulher.png);
+    background-attachment: fixed;
     background-position: center center;
     background-size: cover;
     background-color: lightgray;
@@ -21,6 +22,7 @@
  }
 
  .container{
+    margin-top: 20px;
     box-shadow: 0px 20px 40px 15px #5c95ca9a;
     display: flex;
     flex-direction: column;
@@ -133,7 +135,7 @@
  }
 
  .cadastro a:hover{
-   color: #5c95ca;
+    color: #5c95ca; 
  }
 
  .cadastro a{

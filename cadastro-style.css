@@ -11,6 +11,7 @@
 
  body{
     background-image: url(imagens-cadastro/mulher-cadastro.png);
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-color: lightgray;
