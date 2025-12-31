@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Caixa Econômica Federal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="imagens/Caixa-removebg-preview.png" alt="Logo ilustrativa da caixa">
+        
+            <!-- <p>Venha já ser membro da caixa!</p> -->
+        </div>
+        <div class="email">
+            <input type="text" name="user" id="iuser" placeholder="E-mail" autocomplete="email" minlength="4" maxlength="30" required>
+        </div>
+        <div class="senha">
+            <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="current-password" required min="8" max="20">
+        </div>
+        <div class="botao">
+            <a href="error.html" onclick="logar()">Logar-se</a>
+        </div>
+        <div class="cadastro">
+            <p>Ainda não se cadastrou? <strong><a href="cadastro.html">cadastre-se já aqui!</a></strong></p>
+        </div>
+    </div>
+
+    <script>
+        function logar(){
+            
+        }
+    </script>
+</body>
+</html>
