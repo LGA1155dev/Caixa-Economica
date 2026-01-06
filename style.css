@@ -22,12 +22,12 @@
 
  @keyframes trocaImagem{
    4%   {background-image: url(imagens/loira1.png); opacity: 2;}
-   6% {background-image: url(imagens/minha-modelo13.png)}
+   6% {background-image: url(imagens/loira1.5.png)}
    33%  {background-image: url(imagens/loira2.png); opacity: 2;}
    38% {opacity: 1;}
    66%  {background-image: url(imagens/garota.png); opacity: 2;}
-   70% {background-image: url(imagens/minha-modelo14.png);}
-   100%  {background-image: url(imagens/minha-modelo5.png);}
+   70% {background-image: url(imagens/ruiva1.png);}
+   100%  {background-image: url(imagens/morena1.png);}
  }
 
  .container{

@@ -73,4 +73,51 @@
    70% {opacity: 1;}
    100%  {background-image: url(../imagens/portatil4.png); background-size: cover;}
  }
+
+ .logo{
+    margin-top: 30px;
+    height: 100px;
+ }
+
+ .logo img{
+    width: 250px;
+ }
+
+ .email{
+    padding: 30px;
+    margin-bottom: 20px;
+
+ }
+
+ .email input{
+    margin-top: 40px;
+    padding: 20px;
+ }
+
+ .senha{
+    padding: 30px;
+    margin-top: 90px;
+ }
+
+ .senha input{
+    padding: 20px;
+ }
+
+ .botao{
+    height: 100px;
+    width: 100%;
+ }
+
+ .botao a{
+    margin-top: 160px;
+    border-radius: 70px;
+    padding: 25px;
+ }
+
+ .cadastro{
+    margin-top: 100px;
+    margin-bottom: 0px;
+ }
+
+
 }
