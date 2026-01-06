@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+    .container{
+        transition: 1s;
+        width: 500px;
+        height: 450px;
+    }
+    .logo{
+       height: 100px; 
+    }
+    .logo img{
+        width: 180px;
+    }
+    .email{
+        padding: 30px;
+        height: 30px;
+        width: 100%;
+    }
+
+    .email input{
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .senha{
+        margin-top: 30px;
+        padding: 30px;
+        height: 30px;
+        width: 100%;
+    }
+
+    .senha input{
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .botao{
+        width: 100%;
+        height: 50px;
+    }
+    .botao a{
+        margin-top: 140px;
+        font-size: 1.1em;
+        padding: 10px;
+        border-radius: 50px;
+    }
+
+    .cadastro{
+        margin-top: 110px;
+        height: 30px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 500px) {
+    body{
+         
+    animation: trocaImagem 20s infinite;
+    transition: background-image 10s ease-in-out;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ @keyframes trocaImagem{
+   4%   {background-image: url(../imagens/portatil1.png); background-size: cover; opacity: 2;}
+   6% {opacity: 1;}
+   33%  {background-image: url(../imagens/portatil2.png); background-size: cover; opacity: 2;}
+   38% {opacity: 1;}
+   66%  {background-image: url(../imagens/portatil3.png); background-size: cover; opacity: 2;}
+   70% {opacity: 1;}
+   100%  {background-image: url(../imagens/portatil4.png); background-size: cover;}
+ }
+}
