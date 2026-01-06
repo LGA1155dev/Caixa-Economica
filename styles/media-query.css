@@ -51,7 +51,7 @@
         height: 30px;
     }
 }
-@media screen and (min-width: 375px) and (max-width: 500px) {
+@media screen and (min-width: 375px) and (max-width: 800px) {
     body{
          
     animation: trocaImagem 20s infinite;
